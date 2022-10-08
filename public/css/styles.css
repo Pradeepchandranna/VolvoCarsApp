@@ -1,0 +1,37 @@
+body {
+  background: steelblue;
+  color: white;
+}
+
+.header-container {
+  font-weight: bold;
+  font-size: 25px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cars {
+  display: flex;
+  margin: 30px 5%;
+}
+
+.car {
+  max-width: 25%;
+  margin: 10px;
+}
+
+.car-image {
+  width: 250;
+  height: 200px;
+}
+
+.dvModel {
+  display: flex;
+  align-items: baseline;
+}
+
+.dvModel span{
+  padding-left: 10px;
+}
